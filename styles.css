@@ -224,6 +224,10 @@ font-weight: bold;
 /* Projects */
 
 
+.project {
+    margin-bottom: 135px;
+}
+
 .project__img {
     width: 100%;
     transition: all 500ms ease;
@@ -303,4 +307,22 @@ font-weight: bold;
     text-align: left;
     color: white;
 
+}
+
+/* footer */
+
+
+footer {
+    background-color: #242424;
+
+}
+
+.footer__logo--img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.footer__row {
+    padding: 8% 0;
 }
