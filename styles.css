@@ -331,8 +331,8 @@ footer {
 .footer__row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+
 
     padding: 8% 0;
 }
@@ -345,16 +345,13 @@ footer {
 .footer_social--list-wrapper {
     width: 40%;
     display: flex;
-    flex-direction: column;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: space-around;
-    
-
 }
 
 
 .footer__social--link,
 .footer__copyright {
     color: white;
+    padding: 10px;
 }
