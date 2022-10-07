@@ -8,7 +8,13 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
     color: #242424;
     text-align: center;
     line-height: 1.25;
@@ -22,6 +28,10 @@ h1 {
 p {
     line-height: 1.5;
     font-size: 16px;
+}
+
+a {
+    text-decoration: none;
 }
 
 li {
@@ -46,7 +56,7 @@ li {
     margin: 0 auto;
 }
 
-.text--purple{
+.text--purple {
     color: #6030b1;
 }
 
@@ -77,7 +87,6 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    text-decoration: none;
     font-size: 16px;
     color: #242424;
     font-weight: 600;
@@ -99,8 +108,8 @@ nav {
 .personal__logo {
     font-size: 24px;
     color: #6030b1;
-margin: 0 12px;
-font-weight: bold;
+    margin: 0 12px;
+    font-weight: bold;
 }
 
 /* about me */
@@ -111,11 +120,13 @@ font-weight: bold;
     flex-direction: column;
 
 }
+
 .about-me__info {
     display: flex;
     flex-direction: column;
 
 }
+
 .about-me__info--container {
     display: flex;
     justify-content: center;
@@ -149,14 +160,14 @@ font-weight: bold;
     line-height: 1.5;
     margin-bottom: 28px;
 }
+
 .about-me__info--tittle {
     margin-bottom: 16px;
 }
 
-.about-me__link{
+.about-me__link {
     font-size: 20px;
     color: black;
-    text-decoration: none;
     padding: 0 16px;
 }
 
@@ -167,7 +178,7 @@ font-weight: bold;
 }
 
 .about-me__img {
-   width: 100%;
+    width: 100%;
 }
 
 
@@ -238,8 +249,8 @@ font-weight: bold;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     border-radius: 20px;
     overflow: hidden;
-    position:relative;
-    
+    position: relative;
+
 
 }
 
@@ -317,12 +328,33 @@ footer {
 
 }
 
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8% 0;
+}
+
 .footer__logo--img {
     width: 70px;
     height: 70px;
 }
 
+.footer_social--list-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+    
 
-.footer__row {
-    padding: 8% 0;
+}
+
+
+.footer__social--link,
+.footer__copyright {
+    color: white;
 }
