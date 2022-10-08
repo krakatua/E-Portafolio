@@ -17,22 +17,22 @@
         <nav>
             <div class="personal__logo">Rudis Gomez</div>
             <ul class="nav__link--list">
-                <li>
+                <li class="nav__link">
                     <a href="#languages" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Languages</a>
                 </li>
-                <li>
+                <li class="nav__link">
                     <a href="#projects" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">Projects</a>
                 </li>
-                <li>
-                    <a href="" class="
+                <li class="nav__link">
+                    <a href="mailto:rudisjcg@gmail.com" class="
                     nav__link--anchor
                     nav__link--anchor-primary
                     ">Contact</a>
@@ -46,10 +46,10 @@
                     <figure class="about-me__picture--mask">
                         <img src="./assets/me.jpg" class="about-me__picture" alt="Picture of me!">
                     </figure>
-                    <h1 class="about-me__info--tittle">Hey! I'm <span class="text--purple"> Rudis Cordones </span> 😄
+                    <h1 class="about-me__info--tittle">Hey! I'm <span class="text--purple"> Rudis Cordones </span>&nbsp; <span class="wave">     😄</span>
                     </h1>
-                    <p class="about-me_info--para">I'm a <strong class="text--purple"> frontend software engenier
-                        </strong> with a strong passion of design and create websites!</p>
+                    <p class="about-me_info--para">I'm a <strong class="text--purple"> frontend software engineer
+                        </strong> with a strong passion of design and the creation of websites!</p>
                     <div class="about-me__links">
 
                         <a href="https://www.linkedin.com/in/rudis-cordones-bab332210/" target="_blank"
@@ -62,8 +62,8 @@
                         <a href="mailto:rudisjcg@gmail.com" class="about-me__link">
                             <i class="lni lni-envelope"></i>
                         </a>
-                        <a href="./assets/Rudis Gomez Resume.pdf" download class="about-me__link">
-                            <i class="lni lni-exit-down"></i>
+                        <a href="./assets/Rudis Gomez Resume.pdf" target="_blank" class="about-me__link">
+                            <i class="lni lni-popup"></i>
                         </a>
 
                     </div>
@@ -204,10 +204,14 @@
     </section>
     <footer>
         <div class="row footer__row">
-            <a href="#">
-                <figure>
+            <a href="#" class="footer_anchor">
+                <figure class="footer__logo">
                     <img src="./assets/logo.svg" class="footer__logo--img" alt="">
                 </figure>
+                <span class="footer__logo--popper">
+                    Top
+                    <i class="lni lni-arrow-up-circle"></i>
+                </span>
 
             </a>
 
@@ -234,7 +238,7 @@
                     <a href="./assets/Rudis Gomez Resume.pdf" class="
                 footer__social--link
                 link__hover-effect
-                link__hover-effect--white" target="_blank" download>Resume</a>
+                link__hover-effect--white" target="_blank">Resume</a>
                 </div>
                 <div class="footer__copyright"> Copyright © 2022 Rudis Cordones</div>
             </div>
